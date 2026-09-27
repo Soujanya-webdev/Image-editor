@@ -51,8 +51,13 @@ button, input, select {
     display:flex;
     align-items: center;
     justify-content:space-between;
-
+    height: 48px;
+    padding: 0 16px;
+    background: var(--bg-panel);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    gap:12px;
 }
 
 
-tum samjhogi diwana mai bhi ak raaj karuu diwano ki batte diwanno jante hai jalne mai kya maja hai parwanwe jante hai hum yunhi jalate rehna ha ha karke khawana me pal pal dil k paas tum rehti ho ji jaan maithi pyaar yeh kehte ho pal pal dil ke passsss
+ 
