@@ -94,6 +94,52 @@ button, input, select {
     padding: 0px 12px;
     border: 1px solid transparent;
     border-radius: var(--radius);
-    
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    white-space: nowrap;
+     transition: background 0.12s, border-color 0.12s, color 0.12s;
+  user-select: none;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.btn-ghost {
+    color: var(--text-muted);
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: var(--bg-elevated);
+  color: var(--text);
+}
+
+.btn-primary{
+    background: var(--accent)
+    ;
+    color: #fff;
+    border-color: var(--accent);
 
 }
+
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.btn-secondary{
+    background: var(--bg-elevated);
+    border-color: var(--border);
+    color: var(--text);
+}
+.btn-secondary:hover:not(:disabled) {
+  background: #2a2a2e;
+  border-color: #3a3a40;
+}
+
+
+
+ 
