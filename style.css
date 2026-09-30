@@ -341,3 +341,64 @@ input[type="color"]:disabled {
   margin-bottom: 10px;
 }
 
+.text-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.text-actions .btn {
+    flex: 1;
+
+}
+
+.crop-controls {
+    display: flex;
+}
+
+.workspace {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background: #0e0e10;
+}
+
+.canvas-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    overflow: hidden;
+    min-height: 0;
+}
+
+.empty-state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 24px;
+    border: 1px dashed var(--border);
+    border-radius: 6px;
+    max-width: 360px;
+    width: 90%;
+    transition: border-color 0.15s, background 0.15s;
+
+}
+
+.empty-state.drag-over {
+    border-color: var(--accent);
+    background: rgba(59, 130, 246, 0.06);
+}
+
+.empty-icon{
+    color: var(--text-dim);
+    margin-bottom: 16px;
+}
+
+.empty-title {
+    
+}
